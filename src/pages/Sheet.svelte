@@ -17,7 +17,6 @@ function submitData(e){
   height = weight/help ;
   height = height*39.37 ;
   height = height.toFixed(2);
-
   }
   function refresh(e) {
      location.reload(); 
