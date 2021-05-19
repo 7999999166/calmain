@@ -5,7 +5,7 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    height: 83vh;
+    height: 70vh;
 }
 .bb{
 flex-grow: 1;
