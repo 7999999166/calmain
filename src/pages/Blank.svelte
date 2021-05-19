@@ -5,7 +5,7 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    height: 100vh;
+    height: 83vh;
 }
 .bb{
 flex-grow: 1;
@@ -36,13 +36,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
-.ff{
- display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+
 .gg{
     font-family: monospace;
 
@@ -74,11 +68,11 @@ input{
     <input type="number" class="form-control hh">
  
     </div>
-    <div class="ee">
+    <div class="ee xx">
     <h3 class="gg">Thickness (mm) &nbsp; :</h3>
     <input type="number" class="form-control hh"> 
 
 
     </div>
-    <div class="ff xx"></div>
+   
 </div>
