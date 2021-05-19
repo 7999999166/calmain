@@ -8,7 +8,7 @@
     height: 90vh;
 }
 .bb{
-flex-grow: 1;
+flex-grow: 2;
 background-color: #9a8c98;
 display: flex;
 justify-content: center;
@@ -17,14 +17,14 @@ align-items: center;
 
 .dd{
  display: flex;
-    flex: 1;
+    flex: 4;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 .ee{
  display: flex;
-    flex: 1;
+    flex: 4;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,8 @@ input{
     margin-left: 30px;
 }
 .xx{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+    padding-bottom: 40px;
 }
 </style>
 <div class="aa">
@@ -55,7 +56,7 @@ input{
     </div>
    
     <div class="ee xx">
-    <h3 class="gg">Thickness (mm) &nbsp; :</h3>
+    <h3 class="gg">Thickness (mm)  :</h3>
     <input type="number" class="form-control hh"> 
 
 

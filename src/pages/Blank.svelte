@@ -69,7 +69,7 @@ input{
  
     </div>
     <div class="ee xx">
-    <h3 class="gg">Thickness (mm) &nbsp; :</h3>
+    <h3 class="gg">Thickness (mm)  :</h3>
     <input type="number" class="form-control hh"> 
 
 
