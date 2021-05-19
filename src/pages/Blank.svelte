@@ -5,10 +5,10 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    height: 70vh;
+    height: 85vh;
 }
 .bb{
-flex-grow: 1;
+flex-grow: .7;
 background-color: #9a8c98;
 display: flex;
 justify-content: center;
@@ -32,7 +32,7 @@ padding-top: 20px;
 }
 .ee{
  display: flex;
-    flex: 1;
+    flex: 1.3;
     flex-direction: row;
     justify-content: center;
     align-items: center;
