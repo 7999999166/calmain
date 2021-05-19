@@ -1,69 +1,89 @@
 <script>
-  import {onMount} from 'svelte';
-  let count = 0;
-  onMount(() => {
-    const interval = setInterval(() => count++, 1000);
-    return () => {
-      clearInterval(interval);
-    };
-  });
+  import { RouterView, Link } from '@bjornlu/svelte-router';
+  import './w3.css';
+  import './bootstrap.min.css';
 </script>
 
-<style>
-  :global(body) {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .App {
-    text-align: center;
-  }
-  .App code {
-    background: #0002;
-    padding: 4px 8px;
-    border-radius: 4px;
-  }
-  .App p {
-    margin: 0.4rem;
-  }
+ <style>
+   .aa{
+     display: flex;
+     flex-direction: column;
+     flex: 1;
+     height:100%;
+     background-color: #c9ada7;
+   }
+   .bb{
+     height: 10%;
+     background-color: #22223b;
+     display: flex;
+     align-items: center;
+   }
+   .cc{
+     height:80%;
+     background-color: #c9ada7;
+     margin-top: 82px;
+   }
+   .dd{
+     height: 10% ;
+     background-color: #22223b;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+   }
+   .ll{
+     margin-left: 20px;
+   }
+   .mm{
+     margin-right: 20px;
+   }
+   a{
+     text-decoration: none;
+     color: #f2e9e4 ;
+   }
+   a:hover{
+     color: #22223b ;
+   }
+.ee{
+  display: flex;
+  color: #f2e9e4;
+  flex-grow: 6;
+  margin-left: 10px;
+}
+.ff{
+flex-grow:2 ;
+display: flex;
+justify-content: center;
+}
+.gg{
+flex-grow:2 ;
+display: flex;
+justify-content: center;
+}
+.xx{
+  font-family: monospace;
+  font-size: 1.7rem;
+}
+ </style>
+  <div class="aa">
+      <div class="bb w3-top w3-card">
+        <div class="ee"><h3 class="xx">Calculator</h3></div>
+        <div class="ff"><button type="button" class="btn btn-outline-light">Clear</button></div>
+        <div class="gg"><button type="button" class="btn btn-outline-light">Calculate</button></div>
+      
+     </div>
 
-  .App-header {
-    background-color: #f9f6f6;
-    color: #333;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-  }
-  .App-link {
-    color: #ff3e00;
-  }
-  .App-logo {
-    height: 36vmin;
-    pointer-events: none;
-    margin-bottom: 3rem;
-    animation: App-logo-pulse infinite 1.6s ease-in-out alternate;
-  }
-  @keyframes App-logo-pulse {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.06);
-    }
-  }
-</style>
 
-<div class="App">
-  <header class="App-header">
-    <img src="/logo.svg" class="App-logo" alt="logo" />
-    <p>Edit <code>src/App.svelte</code> and save to reload.</p>
-    <p>Page has been open for <code>{count}</code> seconds.</p>
-    <p>
-      <a class="App-link" href="https://svelte.dev" target="_blank" rel="noopener noreferrer">
-        Learn Svelte
-      </a>
-    </p>
-  </header>
-</div>
+      <div class="cc">
+       <RouterView /> 
+      </div>
+
+
+     <div class="dd w3-bottom w3-card">
+       <div class="hh"><button type="button" class="btn btn-outline-light ll"><a href="/">Blank</a></button></div>
+       <div class="ii"><button type="button" class="btn btn-outline-light"><a href="/circle">Circle</a></button></div>
+       <div class="jj"><button type="button" class="btn btn-outline-light"><a href="/sheet">Sheet</a></button></div>
+       <div class="kk"><button type="button" class="btn btn-outline-light mm"><a href="/cost">Cost</a></button></div>      
+     </div>
+  </div>
+
