@@ -13,6 +13,7 @@ background-color: #9a8c98;
 display: flex;
 justify-content: center;
 align-items: center;
+padding-top: 20px;
 }
 .cc{
  display: flex;
