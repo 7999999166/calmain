@@ -11,7 +11,10 @@
   weight = volume * 7930 ;
   weight = weight.toFixed(3);
 
-  }   
+  }
+  function refresh(e) {
+     location.reload(); 
+  }  
 </script>
 <style>
 .aa{
@@ -102,7 +105,7 @@ justify-content: center;
 <div class="aa">
     <div class="oo w3-top w3-card">
         <div class="pp"><h3 class="ss">Calculator</h3></div>
-        <div class="qq"><button type="button" class="btn btn-outline-light">Clear</button></div>
+        <div class="qq"><button type="button" class="btn btn-outline-light" on:click="{refresh}">Clear</button></div>
         <div class="rr"><button type="button" class="btn btn-outline-light" on:click="{submitData}">Calculate</div>
     </div>
 
