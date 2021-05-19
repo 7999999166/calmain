@@ -117,7 +117,9 @@ justify-content: center;
     font-weight: bolder;
     border: transparent;
 }
-
+.eee{
+    margin-bottom: 20px;
+}
 
 </style>
 <div class="aa">
@@ -182,7 +184,7 @@ justify-content: center;
 
     </div>
 
-     <div class="dd yy">
+     <div class="dd yy eee">
    <input type="text" class="w3-round w3-input hh aaa bbb">
     <input type="number" class="form-control hh" bind:value={a6} placeholder="Quantity">
     <input type="number" class="form-control hh ccc" bind:value={b6} placeholder="Price"> 
