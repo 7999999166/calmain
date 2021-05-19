@@ -21,7 +21,7 @@
    .cc{
      height:80%;
      background-color: #c9ada7;
-     margin-top: 82px;
+     margin-top: 75px;
    }
    .dd{
      height: 10% ;

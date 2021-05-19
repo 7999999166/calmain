@@ -1,25 +1,84 @@
+<script>    
+</script>
 <style>
-    input{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+.aa{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100vh;
+}
+.bb{
+flex-grow: 1;
+background-color: #9a8c98;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cc{
+ display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+.dd{
+ display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ee{
+ display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ff{
+ display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.gg{
+    font-family: monospace;
+
+}
+.hh{
+width: 80px;
+}
+input{
+    margin-left: 30px;
+}
+.xx{
+    margin-bottom: 50px;
+}
 </style>
-<h1>Kanik Goyal</h1>
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<input type="number" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+<div class="aa">
+    <div class="bb"><h3 class="gg">Weight (Kg) : </h3></div>
+    <div class="cc">
+    <h3 class="gg">Height (inch) &nbsp; :</h3>
+    <input type="number" class="form-control hh">
+
+    </div>
+    <div class="dd">
+    <h3 class="gg">Diameter (inch) :</h3>
+    <input type="number" class="form-control hh">
+
+    </div>
+    <div class="ee">
+    <h3 class="gg">Width (inch) &nbsp;&nbsp; :</h3>
+    <input type="number" class="form-control hh">
+ 
+    </div>
+    <div class="ee">
+    <h3 class="gg">Thickness (mm) &nbsp; :</h3>
+    <input type="number" class="form-control hh"> 
+
+
+    </div>
+    <div class="ff xx"></div>
+</div>
