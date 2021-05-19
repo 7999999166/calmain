@@ -118,7 +118,7 @@ justify-content: center;
     border: transparent;
 }
 .eee{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 </style>
